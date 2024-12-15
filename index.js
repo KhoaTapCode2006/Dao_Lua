@@ -72,11 +72,11 @@ video_introduction.onended = function(){
   video_intro.volume = 0;
 }
 
-function rightSlide(){
-  showMemberSlide_Right();
-}
-
 function leftSlide(){
+  showMemberSlide_Right();
+}rightSlide
+
+function rightSlide(){
   showMemberSlide_Left();
 
 }
