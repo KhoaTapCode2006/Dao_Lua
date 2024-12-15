@@ -9,8 +9,10 @@ let closeMessage = document.getElementById("close_button_message");
 let watchVideo = document.getElementById("watch_video");
 let video = document.getElementById("video_container");
 let background = document.getElementById("background_body");
-let closeVideo = document.getElementById("close_video");
+let closeVideo = document.getElementById("close_video"); 
 
+/* đây là biến lấy id của nơi mà mình sẽ để kết quả sau khi extract từ ocr */
+let ocr_data = documnet.getElementById("ocr_extracted_text")
 
 watchVideoBelow.addEventListener("click", function(){
   video.style.display = "flex";
