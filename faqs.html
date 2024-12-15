@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="faqs.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="inter-font-normal">
+
+    <body class="inter-font-normal" style="overflow-x: hidden">
+    <div class="flex p-4 bg-blue-400 w-full inter-font-bold" style="background:linear-gradient(
+      176.5deg,      
+      #1E63A4 0%,    
+      #19558D 50%,   
+      #032F58 50%,
+      #032F58 100%   
+  );">
+      <div class="inline-block mx-12" style="margin-left: 22px">
+        <img class="object-fill h-16 w-20 shrink-0 grow-0" src="../Assets/logo_FOCUS.png"></img>  
+      </div>
+      <div style="position: relative"> 
+        <input class=" border-white p-5 " id="search_engine" style="color: white;font-size: 20px;border-radius: 30px;border-width: 3.5px; position:relative;"placeholder="KẾT QUẢ"/>
+          <span class="text-white inline-block content-center text-2xl font-bold mx-6" style="margin-right: 30px; font-size: 30px; position:absolute; " ></span>
+          <div class="text-white text-2xl font-bold " style="position: absolute; right: 5%; top:35%;" >
+            <img src="../Assets/icons/search-icon.png" > </img>
+          </div>
+      </div>
+      <div class="flex p-3">
+        <a  class="inline-block content-center mx-12 font-bold text-white  hover:text-orange-600 hover:underline hover:underline-offset-4 " style="font-size: 24px; cursor: pointer; margin-right: 40px; margin-left: 60px" href="landpage.html" target="blank">TRANG CHỦ</a>
+      </div>
+  
+      <div class="flex p-3">
+        <a  class="inline-block content-center mx-12 font-bold text-white hover:text-orange-600  hover:underline hover:underline-offset-4 align-middle" style="font-size: 24px; cursor: pointer;margin-right: 40px;  " href="aboutUs.html" target="blank">ABOUT US</a>
+      </div>
+  
+      <div class="flex p-3">
+        <a  class="inline-block content-center mx-12 font-bold text-white hover:text-orange-600  hover:underline hover:underline-offset-4 align-middle" style="font-size: 24px; cursor: pointer;margin-right: 60px; color: rgb(234 88 12 / var(--tw-text-opacity, 1));text-decoration: underline;text-underline-offset: 4px; " href="faqs.html" target="blank">FAQS </a>
+      </div>
+      <div style="padding: 15px; display: flex; align-items: center"> 
+      <a class=" px-9 inline-block border-2 font-outline-2 border-white font-bold bg-gradient-to-r from-orange-500 to-yellow-300 h-fit" style="padding-left: 45px; padding-right: 45px; padding-top: 2px; padding-bottom: 2px;color: white;margin-left: 30px; font-size: 24px; cursor: pointer;border-radius: 8px;" href="premium.html" target="blank">
+        PREMIUM
+      </a>
+    </div>
+  
+    </div>
+    <div class="faq-container">
+        <h1><b>Những Câu Hỏi Thường Gặp</b></h1>
+        <div class="search-bar">
+        <i>🔍</i>
+        <input type="text" placeholder="Search question here...">
+    
+    </div>
+    </div>
+    <div style = "padding: 12px 170px 12px 170px;">
+    <div class="faq-item" >
+    <b>Làm thế nào để sử dụng FOCUS?</b><br>Nếu bạn vẫn chưa biết sử dụng công cụ OCR như thế nào? Chỉ cần vào trang chủ và upload 1 file ảnh bất kỳ, văn bản sẽ được trích xuất thành các từ khóa và kết quả tìm kiếm sẽ được hiển thị.  <button type="button" onclick="dieu_huong()"><i>Xem hướng dẫn chi tiết tại đây >>></i></button>
+    </div>    
+    <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">OCR là gì? <span>+</span></div>
+    <div class="faq-answer">OCR là 1 công cụ cho phép nhận diện văn bản từ hình ảnh 
+        sau đó văn bản sẽ được trích xuất thành các từ khóa có ý nghĩa cho việc tìm kiếm. 
+        Số kết quả tìm kiếm (volume) sẽ được hiển thị trên màn hình, công cụ tìm kiếm là Google và Bing. 
+        Có lẽ bạn đã tiếp xúc với các công cụ OCR rồi mà chưa để ý,
+         Google lens hay tính năng tìm kiếm bằng hình ảnh trên Shopee, Qanda,... là những ví dụ về OCR.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">OCR là gì? <span>+</span></div>
+        <div class="faq-answer">OCR là 1 công cụ cho phép nhận diện văn bản từ hình ảnh sau đó văn bản sẽ được trích xuất thành các từ khóa có ý nghĩa cho việc tìm kiếm. Số kết quả tìm kiếm (volume) sẽ được hiển thị trên màn hình, công cụ tìm kiếm là Google và Bing. Có lẽ bạn đã tiếp xúc với các công cụ OCR rồi mà chưa để ý, Google lens hay tính năng tìm kiếm bằng hình ảnh trên Shopee, Qanda,... là những ví dụ về OCR.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">OCR hoạt động như thế nào? <span>+</span></div>
+        <div class="faq-answer">Đây là quá trình mà OCR hoạt động:<br>  1. Thu thập hình ảnh<br>
+            2. Tiền xử lí hình ảnh: làm rõ văn bản, tăng độ tương phản, loại bỏ nhiễu, điều chỉnh độ sáng.<br>
+            3. Phân tích bố cụ trang: Xác định vùng chứa văn bản<br>  4. Nhận dạng kí tự: Dựa trên các thuật toán học máy và mạng nơ-ron để so khớp các mẫu kí tự trong hình ảnh với các mẫu kí tự đã được huấn luyện trước đó.<br></div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">FOCUS hỗ trợ những ngôn ngữ nào? <span>+</span></div>
+        <div class="faq-answer">Hiện tại FOCUS hỗ trợ được hầu hết các ngôn ngữ nhưng Tiếng Việt và Tiếng Anh vẫn là đối tượng tập trung chính của tụi mình. Vì độ chính xác của các ngôn ngữ khác rất khó để kiểm tra do tụi mình không hiểu ngôn ngữ đó.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">FOCUS có thể nhận dạng được chữ viết tay không? <span>+</span></div>
+        <div class="faq-answer">Tất nhiên là CÓ, đối với chữ viết rõ ràng, vở sạch chữ đẹp hình ảnh Full HD không che thì FOCUS sẽ nhận diện được đầy đủ. Nếu hình ảnh chứa văn bản mà ngay cả bạn cũng không đọc được thì mình nghĩ OCR cũng sẽ có độ chính xác không cao.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">Làm thế nào để cải thiện độ chính xác của FOCUS? <span>+</span></div>
+        <div class="faq-answer">Để OCR cho kết quả với độ chính xác cao thì chữ viết của bạn cần rõ ràng và chất lượng hình ảnh tốt (ảnh chụp chất lượng cao, không thiếu sáng, có độ tương phản, không bị nhiễu,...). Nếu vẫn không được thì bạn hãy thử chụp và upload hình ảnh lại</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">FOCUS có bảo mật không? <span>+</span></div>
+        <div class="faq-answer">Chúng tôi cam kết bảo mật dữ liệu của bạn. Tất cả các tài liệu và kết quả quét OCR đều được mã hóa và bảo vệ an toàn.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">Tôi gặp vấn đề khi sử dụng FOCUS, tôi muốn hỗ trợ <span>+</span></div>
+        <div class="faq-answer">Nếu tất cả câu hỏi trên chưa giải đáp được vấn đề của bạn, bạn có thể nhắn tin trực tiếp ở Box Chat và chúng mình sẽ hỗ trợ.</div>
+    </div>
+    </div>
+    </div>
+    <div id="footer" style = "width: 100%;"></div>
+    <div class="flex p-4 bg-blue-400 w-full " style="background:linear-gradient(
+      183.5deg,      
+      #1E63A4 0%,    
+      #19558D 50%,   
+      #032F58 50%,
+      #032F58 100%   
+  );" id="footer">
+    <div class=" flex" style="flex-basis: 40%; font-size: 20px">
+      <div class="font-medium text-white" style="flex-basis: 24%">LƯU Ý:  </div>
+      <div class="font-medium text-white">ĐÂY LÀ SẢN PHẨM CHO ĐỒ ÁN MÔN HỌC, KHÔNG SỬ DỤNG CHO MỤC ĐÍCH THƯƠNG MẠI </div>
+    </div>
+  
+    <div style="flex-basis: 25%;"> </div>
+  
+    <div class=" flex" id="contact" style="flex-basis: 35%; font-size: 20px; align-items:center">
+      <div class="font-medium text-white" style="font-size: 24px">CONTACT US:  </div>
+      
+      <a id="icon_footer" href="" target="blank">
+        <img src="../Assets/icons/logos_facebook.png"> </img>  
+      </a>
+  
+      <a id="icon_footer" href="" target="blank">
+        <img src="../Assets/icons/logos_zalo.png"> </img>  
+      </a>
+  
+      <a id="icon_footer" href="" target="blank">
+        <img src="../Assets/icons/logos_mail.png"> </img>  
+      </a>
+    </div>
+  </div>
+    <script>
+        function toggleAnswer(element) {
+            const answer = element.nextElementSibling;
+            const symbol = element.querySelector("span");
+            if (answer.style.display === "none" || answer.style.display === "") {
+                answer.style.display = "block";
+                symbol.textContent = "-";
+            } else {
+                answer.style.display = "none";
+                symbol.textContent = "+";
+            }
+        }
+    </script>
+    <script>
+        function loadHTML(elementId, url) {
+            fetch(url)
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById(elementId).innerHTML = data;
+            });
+        }
+   
+            loadHTML('header', 'header.html');
+            loadHTML('footer', 'footer.html');
+    </script>
+    
+    <script>
+        function dieu_huong(){
+            location.assign("http://facebook.com");/*thay link thành link khác*/
+        }
+    </script>
+</body>
+</html>

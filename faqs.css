@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-size: 20px;
+}
+.faq-section {
+    padding: 20px;
+}
+.faq-item {
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+}
+.faq-question span {
+    font-size: 24px;
+    color: #2c5f92;
+}
+.faq-container {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.faq-container h1 {
+    font-size: 33px;
+    color: #1a1a7f;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.search-bar input {
+    width: 550px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+}
+.search-bar button {
+    background-color: #1a1a7f;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+    margin-left: -40px;
+    cursor: pointer;
+    font-size: 19px;
+}
+.search-bar button:hover {
+    background-color: #4d4dc6;
+}
+
+
+
+
+
+
