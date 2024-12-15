@@ -1062,7 +1062,7 @@ video {
 }
 
 #about_us #thumbnail{
-  background: url("../Assets/images/introduction_thumbnail_aboutus.jpg");
+  background: url("Assets/images/introduction_thumbnail_aboutus.jpg");
   border-radius: 30px;
   height: 400px;
   width: 100%;
