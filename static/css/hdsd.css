@@ -1,0 +1,64 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family: "Inter", serif;
+}   
+.main-content {
+    position: relative;
+    top: -300px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+#image_21{
+    position: relative;
+    right: 0px;
+    top:340px;
+    width: 242px;
+    height: auto;
+    z-index: 2;
+}
+#image_45{
+    position: relative;
+    left: 1300px;
+    top:155px;
+    width: 190px;
+    height: auto;
+    z-index: 2;
+}
+#image_47{
+    position: relative;
+    left: 850px;
+    top:-280px;
+    width: 480px;
+    height: auto;
+    z-index: 2;
+}
+.gradient-container {
+
+    width: 1526px;
+    background: linear-gradient(90deg, #C6C6C6 0%, #85C4FF 100%);
+    clip-path: inset(0 0 0 90px);
+    z-index: 1;
+}
+
+.gradient-container h1 {
+    background: linear-gradient(90deg, #13206A 0%, #1877F2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    -webkit-box-decoration-break: clone;
+}
+
+.gradient-container h1 {
+    color: #fff;
+    padding: 30px; /* Adjust the padding as needed */
+    font-size: 60px; /* Adjust the font size as needed */
+}
+
+
+

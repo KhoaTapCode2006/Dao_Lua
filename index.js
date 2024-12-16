@@ -12,7 +12,8 @@ let background = document.getElementById("background_body");
 let closeVideo = document.getElementById("close_video"); 
 
 /* đây là biến lấy id của nơi mà mình sẽ để kết quả sau khi extract từ ocr */
-let ocr_data = documnet.getElementById("ocr_extracted_text")
+let ocr_data = document.getElementById("ocr_extracted_text");
+let ocr_image = document.getElementById
 
 watchVideoBelow.addEventListener("click", function(){
   video.style.display = "flex";
@@ -129,6 +130,19 @@ function showMemberSlide_Left(){
 
 }
 
-
+function fetchJSONData(){
+  fetch("ocr.json").then((response) =>{
+    if(!res.ok){
+      throw new Error('ERROR occur, malfunction with OCR');
+    }
+    return res.json();
+  })
+  .then((data) =>{
+        // NƠI ĐỂ PASTE CODE CỦA OCR SAU KHI CHUYỂN TỪ PYTHON SANG FILE ocr,json
+  })
+  .catch((error) =>{
+  console.log("ERROR occured, unable to fetch ocr.json data");
+  })
+}
 
 
