@@ -12,8 +12,7 @@ let background = document.getElementById("background_body");
 let closeVideo = document.getElementById("close_video"); 
 
 /* đây là biến lấy id của nơi mà mình sẽ để kết quả sau khi extract từ ocr */
-let ocr_data = document.getElementById("ocr_extracted_text");
-let ocr_image = document.getElementById
+
 
 watchVideoBelow.addEventListener("click", function(){
   video.style.display = "flex";
